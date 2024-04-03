@@ -1,0 +1,13 @@
+.contact__link {
+  font-size: 30px;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 35.55px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  opacity: 1;
+}
+
+.contact__link:hover {
+  opacity: 0.6;
+}

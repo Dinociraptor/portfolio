@@ -1,0 +1,8 @@
+.contacts__img {
+  background-image: url(/portfolio/src/img/contacts_img.png);
+  width: 753px;
+  height: 907px;
+  position: absolute;
+  left: -50px;
+  z-index: -1;
+}

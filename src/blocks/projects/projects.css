@@ -1,0 +1,7 @@
+.projects {
+  max-width: 1180px;
+  margin: auto;
+  margin-top: 215px;
+  display: flex;
+  flex-direction: column;
+}

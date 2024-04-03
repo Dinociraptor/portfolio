@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Rubik';
+	src: url('Rubik-MediumItalic.eot');
+	src: local('Rubik Medium Italic'), local('Rubik-MediumItalic'),
+		url('Rubik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('Rubik-MediumItalic.woff') format('woff'),
+		url('Rubik-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Rubik Mono One';
+	src: url('RubikMonoOne-Regular.eot');
+	src: local('Rubik Mono One Regular'), local('RubikMonoOne-Regular'),
+		url('RubikMonoOne-Regular.eot?#iefix') format('embedded-opentype'),
+		url('RubikMonoOne-Regular.woff') format('woff'),
+		url('RubikMonoOne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

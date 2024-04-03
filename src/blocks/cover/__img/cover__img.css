@@ -1,0 +1,8 @@
+.cover__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 551px;
+  height: 485px;
+  margin: 0;
+  margin-top: 28px;
+}

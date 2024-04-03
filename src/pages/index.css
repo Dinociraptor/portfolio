@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/font/font.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/blur/blur.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__links/header___links.css);
+@import url(../blocks/header/__link/header___link.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__img/content__img.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__info/cover_info.css);
+@import url(../blocks/cover/__img/cover__img.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__text/_contact/cover__text_contact.css);
+@import url(../blocks/cover/__button/cover__button.css);
+@import url(../blocks/cover/__links/cover__links.css);
+@import url(../blocks/cover/__link/cover__link.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__description/projects__description.css);
+@import url(../blocks/projects/__list/projects__list.css);
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__img/project__img.css);
+@import url(../blocks/project/__screenshot/project__screenshot.css);
+@import url(../blocks/project/__link/project__link.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__info/contacts__info.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__img/contacts__img.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/_phone/contact_phone.css);
+@import url(../blocks/contact/_git/contact_git.css);
+@import url(../blocks/contact/_telegram/contact_telegram.css);
+@import url(../blocks/contact/_vk/contact_vk.css);
+@import url(../blocks/contact/__link/contact__link.css);
+
+

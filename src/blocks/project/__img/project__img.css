@@ -1,0 +1,10 @@
+.project__img {
+  background-image: url(/portfolio/src/img/project__img_nsh.png);
+  width: 381px;
+  height: 224px;
+  align-self: center;
+  -webkit-filter: drop-shadow(3px 5px 5px #000);
+  filter: drop-shadow(3px 5px 5px #000);
+  position: absolute;
+  z-index: -1;
+}

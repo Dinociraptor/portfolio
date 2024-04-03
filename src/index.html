@@ -11,20 +11,112 @@
   <script defer src="pages/index.js"></script>
 </head>
 <body class="page">
-  <header class="header"></header>  
-  <main class="content">
-    <section class="cover">
-
-    </section>
-    
-    <section class="main">
-
-    </section>
-
-    <section class="contact">
-
-    </section>
-  </main>
-  <footer class="footer"></footer>
+  <div class="blur">
+    <div class="content__img"> </div>
+    <header class="header">
+      <h1 class="header__title">Дино идет в IT</h1>
+      <div class="header__links">
+        <a href="#" class="header__link">Проекты</a>
+        <a href="#" class="header__link">Контакты</a>
+      </div>
+    </header> 
+    <content class="content">
+      <section class="cover">
+        <div class="cover__info">
+          <p class="cover__text">Привет!<br></p>
+          <p class="cover__text">Меня зовут Дино. Я создал эту страницу, чтобы показать, что умею.<br>
+          <p class="cover__text">Сейчас в разделе “Проекты” ты можешь увидеть пустые ячейки - это потому что они еще не созданы. По мере обучения, я буду заполнять ячейки новыми проектами.<br></p>
+          <p class="cover__text">Все проекты авторские и взяты из головы (учебные проекты здесь не живут).</p>
+          <p class="cover__text cover__text_contact">Если хочешь со мной связаться, пообщаться или предложить проект, то нажми на кнопку <b>“СВЯЗАТЬСЯ”</b> и выбери удобный способ связи.</p>
+          <div class="cover__links">
+            <button class="cover__button">связаться</button>
+            <a href="#" class="cover__link">посмотреть проекты</a>
+          </div>
+        </div>
+        <img class="cover__img" src="./img/cover__img.png">
+      </section>
+  
+      <section class="projects">
+        <h2 class="projects__title">Проекты</h2>
+        <h3 class="projects__description">Здесь находятся проекты, для которых использовались HTML и CSS</h3>
+        <ul class="projects__list">
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/mailsanta.png">
+            <a href="#" class="project__link">Письмо Деду Морозу</a>
+          </li>
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+        </ul>
+        <h3 class="projects__description">Проекты, в которых использовался JavaScript</h3>
+        <ul class="projects__list">
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+        </ul>
+        
+        <h3 class="projects__description">Проекты, в которых применял PHP и Laravel</h3>
+        <ul class="projects__list">
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+          <li class="project">
+            <div class="project__img"></div>
+            <img class="project__screenshot" src="img/project__no.png">
+            <a href="#" class="project__link">Название</a>
+          </li>
+        </ul>
+      </section>
+  
+      <section class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <div class="contacts__info">
+          <p class="contacts__text">Меня можно найти во всех социальных сетях:</p>
+          <ul class="contacts__list">
+            <li class="contact contact_phone">
+              <a class="contact__link" href="#">+7 951 583 7050</a>
+            </li>
+            <li class="contact contact_git">
+              <a class="contact__link" href="#">@Dinociraptor</a>
+            </li>
+            <li class="contact contact_telegram">
+              <a class="contact__link" href="#">@PavelKhodeev</a>
+            </li>
+            <li class="contact contact_vk">
+              <a class="contact__link" href="#">HodeevPavel</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__img" src="" alt=""> </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>

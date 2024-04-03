@@ -1,0 +1,18 @@
+.cover__button {
+  width: 169.65px;
+  height: 58px;
+  border: 0px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: 23.7px;
+  background-color: rgba(36, 135, 125, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 0;
+  opacity: 1;
+  gap: 10px;
+}
+.cover__button:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,14 @@
+.header__link {
+  font-size: 14px;
+  font-family: Rubik Mono One;
+  font-weight: 400;
+  line-height: 17.33px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-left: 40px;
+  opacity: 1;
+}
+.header__link:hover {
+  opacity: 0.6;
+}
