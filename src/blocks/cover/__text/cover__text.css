@@ -1,10 +1,9 @@
 .cover__text {
   font-size: 29px;
-  font-family: Rubik;
+  font-family: 'Rubik';
   font-weight: 400;
   line-height: 36.25px;
   color: rgba(255, 255, 255, 1);
   margin: 0;
-  letter-spacing: -1%;
   margin-top: 15px;
 }
